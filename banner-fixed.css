@@ -1,0 +1,13 @@
+.banner-fixed{
+height: 60vh;
+background-image:url("images/computer.jpg");
+margin:  50px 0;
+background-size: cover;
+background-attachment: fixed;
+}
+
+@media (min-width:  576px) {
+	.banner-fixed{
+		background-position: center;
+	}
+}

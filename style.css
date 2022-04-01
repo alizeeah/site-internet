@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto:wght@700&display=swap');
 @import url('banner-fixed.css'); 
-
+html{
+  color: #992b5c;
 
 body{
 	font-family: 'lora',serif ;
@@ -8,7 +9,7 @@ body{
 }
 h1{
 	color: hotpink;
-
+	font-family: 'Sofia', cursive;
 }
 h1, h2,h3,h4, a{
 	font-family: 'Roboto', sans-serif;
@@ -34,8 +35,7 @@ h3{
 h4{
 	color: #8f728e;
 }
-p{ color: #216163;
-
+p{ color: #ba1472;
 }
 .card-white {
 	background-color: white;

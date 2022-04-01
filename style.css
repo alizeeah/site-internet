@@ -1,42 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto:wght@700&display=swap');
 @import url('banner-fixed.css'); 
-html{
-  color: #992b5c;
 
+  html{
+  color: #992b5c;
+}
 body{
 	font-family: 'lora',serif ;
-	background-color: #ffe3f5;
-}
+	background-color: #ffe3f5;}
 h1{
 	color: hotpink;
-	font-family: 'Sofia', cursive;
-}
-h1, h2,h3,h4, a{
-	font-family: 'Roboto', sans-serif;
-}
+	font-family: 'Sofia', cursive;}
+
+h2,h3,h4, a{
+	font-family: 'Roboto', sans-serif;}
 h2{
-	color: #b82a88;
-}
+	color: #b82a88;}
 a {
 
-	text-decoration: none; 
-}
+	text-decoration: none; }
 h2 {
 margin : 30px;}
 
 ul {
 	list-style: none;
-	padding: 0;
-}
+	padding: 0;}
 h3{
 	color: #8f728e;
+color: ;
 }
 
 h4{
-	color: #8f728e;
-}
-p{ color: #ba1472;
-}
+	color: #8f728e;}
+p{ color: #ba1472;}
+
 .card-white {
 	background-color: white;
 	padding: 40px;
@@ -52,7 +48,7 @@ img-circle {
 	height: 150px
 	width:  150px;
 	object-fit: cover;
-	border: 1px solid black;
+	border: 1px solid hotpink;
 }
 .btn-blue{
 	background-color:hotpink;
@@ -63,6 +59,9 @@ img-circle {
 	margin: 0 auto;
 	display:  block;
 	width: 25%;
+	border:  1px solid pink;
+	transition:  1s;
+	text-align: center;
 }
 
 
@@ -70,17 +69,16 @@ img-circle {
 	background-color: black;}
 .list-inline li{
 
-display: inline ;
-}
+display: inline ;}
+
 .list-inline{
-	padding: 0;
-}
+	padding: 0;}
+
 .list-inline a{
 	font-size:  48px;
 	color:  rgba(0, 0, 0, 0.3);
 }
-}
+
 .list-inlive a:hover{
-	color: black;
-}
+	color: black;}
 
